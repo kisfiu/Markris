@@ -110,10 +110,11 @@ public class MainMenuActivity extends android.app.Activity
     public void init()
     {
         menuItems = new java.util.ArrayList<Integer>();
-        menuItems.add(R.drawable.main_menu_account_v2);
-        menuItems.add(R.drawable.main_menu_settings_v2);
-        menuItems.add(R.drawable.main_menu_games_v2);
-        menuItems.add(R.drawable.main_menu_brainboard_v2);
+        menuItems.add(R.drawable.main_menu_account_v2);    //marad
+        //menuItems.add(R.drawable.main_menu_settings_v2);
+        //menuItems.add(R.drawable.main_menu_games_v2);
+        menuItems.add(R.drawable.main_menu_brainboard_v2); //marad
+        menuItems.add(R.drawable.main_menu_anim);          //marad
 
         android.widget.GridView gridView = (android.widget.GridView) findViewById(R.id.menuitems);
         MenuAdapter menuAdapter = new MenuAdapter(this);
@@ -125,7 +126,7 @@ public class MainMenuActivity extends android.app.Activity
             public void onItemClick(android.widget.AdapterView<?> parent, android.view.View view, int position, long id)
             {
 
-                if (position == 3)
+                if (position == 1)
                 {
                     if(!(currentUser.equals("")))
                     {
@@ -149,8 +150,6 @@ public class MainMenuActivity extends android.app.Activity
                     android.content.Intent intent = new android.content.Intent(view.getContext(), NeuronAnimActivity.class);
                     startActivity(intent);
                 }
-
-
             }
         });
 
