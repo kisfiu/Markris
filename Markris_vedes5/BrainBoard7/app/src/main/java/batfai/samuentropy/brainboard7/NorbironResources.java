@@ -51,19 +51,19 @@ public class NorbironResources
 
     private Integer[] imgIDs =
             {
-                    R.drawable.pcb550i, 1, 1,
-                    R.drawable.pcb550i_gray, 1, 1,
-                    R.drawable.pcb550i_red, 1, 1,
-                    R.drawable.pickone, 3, 3,
-                    R.drawable.picktwo, 3, 3,
-                    R.drawable.pickthree, 3, 3,
-                    R.drawable.pickfour, 3, 3
+                    R.drawable.mk_artiproci_simple, 1, 1,
+                    R.drawable.mk_artiproci_gray, 1, 1,
+                    R.drawable.mk_artiproci_red, 1, 1,
+                    R.drawable.mk_pickone, 3, 3,
+                    R.drawable.mk_picktwo, 3, 3,
+                    R.drawable.mk_pickthree, 3, 3,
+                    R.drawable.mk_pickfour, 3, 3
 
             };
 
     private Integer[] menuIDs =
             {
-                    R.drawable.buildproci, R.drawable.boxinproci
+                    R.drawable.mk_createproci, R.drawable.mk_deleteproci
             };
 
     private Integer[] switchIDs =

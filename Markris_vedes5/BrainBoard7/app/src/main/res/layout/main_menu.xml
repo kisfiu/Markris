@@ -4,7 +4,7 @@
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-				android:background="@drawable/background_orangeblue_theme"
+				android:background="@drawable/mk_main_menu_bg"
 				android:id="@+id/bg">
 
 	<LinearLayout 

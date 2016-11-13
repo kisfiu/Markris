@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     android:gravity="center_horizontal"
-    android:background="@drawable/background_orangegreen_theme">
+    android:background="@drawable/mk_loginbg">
 
 
     <LinearLayout
@@ -34,8 +34,9 @@
         <ImageView
             android:layout_width="269dp"
             android:layout_height="92dp"
-            android:src="@drawable/okbtn"
+            android:src="@drawable/mk_login_btn"
             android:id="@+id/login"
+            android:foregroundGravity="center_horizontal"
             android:layout_gravity="bottom"
             android:layout_weight="0.65" />
 

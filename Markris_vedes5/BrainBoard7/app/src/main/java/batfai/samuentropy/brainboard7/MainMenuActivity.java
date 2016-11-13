@@ -116,9 +116,9 @@ public class MainMenuActivity extends android.app.Activity
     public void init()
     {
         menuItems = new java.util.ArrayList<Integer>();
-        menuItems.add(R.drawable.main_menu_account_v2);    //marad
-        menuItems.add(R.drawable.main_menu_brainboard_v2); //marad
-        menuItems.add(R.drawable.main_menu_anim);          //marad
+        menuItems.add(R.drawable.mk_main_menu_account);    //marad
+        menuItems.add(R.drawable.mk_main_menu_game); //marad
+        menuItems.add(R.drawable.mk_main_menu_anim);          //marad
 
         android.widget.GridView gridView = (android.widget.GridView) findViewById(R.id.menuitems);
         MenuAdapter menuAdapter = new MenuAdapter(this);

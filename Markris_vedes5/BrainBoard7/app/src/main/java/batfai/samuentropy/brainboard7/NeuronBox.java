@@ -1,15 +1,9 @@
 package batfai.samuentropy.brainboard7;
 
-/**
- * Created by artibarti on 2016.11.05..
- */
-
 public class NeuronBox implements Cloneable
 {
 
     public int SLOT_SIZE = 120;
-    //public int PROCESSOR_SIZE_X = 80;
-    //public int PROCESSOR_SIZE_Y = 80;
     public int PROCESSOR_FRAME_SIZE = 20;
 
     private Sprite[] neurons;
@@ -67,7 +61,7 @@ public class NeuronBox implements Cloneable
 
         neurons = new Sprite[numberOfNeurons];
         for (int i = 0; i < neurons.length; ++i) {
-            neurons[i] = new Sprite(tiles, length, (int) (0.25*width), (int) (0.25*height), boxWidth, boxHeight);
+            neurons[i] = new Sprite(tiles, length, (int) (0.75*width), (int) (0.75*height), boxWidth, boxHeight);
         }
     }
 
